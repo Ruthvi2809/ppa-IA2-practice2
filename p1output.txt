@@ -1,1 +1,11 @@
-
+gcc -g p1original.c
+ ./a.out
+enter the base of the triagle:
+^[[A
+enter the height of triangle:
+the area of the triangle is -0.000000 ./a.out
+enter the base of the triagle:
+9.0
+enter the height of triangle:
+4.0
+the area of the triangle is 18.000000
