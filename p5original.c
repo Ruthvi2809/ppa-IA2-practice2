@@ -9,7 +9,7 @@ int input()
 int_gcd(int a,int b)
 {
   int gcd=1;
-  for(int i=2;i<a&&i<b;i++)
+  for(int i=2;i<=a&&i<=b;i++)
     {
       if(a%i==0&&i==0)
       {
@@ -22,7 +22,7 @@ int_gcd(int a,int b)
 }
 void out_put(int a,int b,int gcd)
 {
-  printf("GCD of %d and %d is %d "a,b,gcd);
+  printf("GCD of %d and %d is %d \n",a,b,gcd);
 }
 int main()
 {
